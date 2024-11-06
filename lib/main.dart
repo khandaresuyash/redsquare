@@ -46,10 +46,10 @@ class SquareAnimationState extends State<SquareAnimation> {
   /// Total width of the screen.
   double get screenWidth => MediaQuery.of(context).size.width;
 
-  /// Left most position for the container based on the [screenWidth].
+  /// Left most position for the container based on the [screenWidth] with padding of 4%.
   double get leftMostPosition => screenWidth * 0.4;
 
-  /// Right most position for the container based on the [screenWidth].
+  /// Right most position for the container based on the [screenWidth] with padding of 4%.
   double get rightMostPosition => -screenWidth * 0.4;
 
   /// Move the container to the left side of the screen.
